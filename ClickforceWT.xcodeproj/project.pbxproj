@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		400AC8F625009D1300213908 /* PromptView.m in Sources */ = {isa = PBXBuildFile; fileRef = 400AC8F525009D1300213908 /* PromptView.m */; };
+		4013792624ED180700B3DC33 /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4013792424ED180700B3DC33 /* WelcomeViewController.m */; };
+		4013792B24ED2A9B00B3DC33 /* UIImage+mfanimatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 4013792924ED2A9B00B3DC33 /* UIImage+mfanimatedGIF.m */; };
+		4013793024EE578300B3DC33 /* clickforce_logo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4013792F24EE578300B3DC33 /* clickforce_logo.gif */; };
+		4013793424EE71CE00B3DC33 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4013793324EE71CE00B3DC33 /* MainViewController.m */; };
+		4013793824EFB3DE00B3DC33 /* InputText.m in Sources */ = {isa = PBXBuildFile; fileRef = 4013793724EFB3DE00B3DC33 /* InputText.m */; };
+		4013793B24EFCF4F00B3DC33 /* WorkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4013793A24EFCF4F00B3DC33 /* WorkViewController.m */; };
+		40155EE126BC487000D13892 /* Notification.m in Sources */ = {isa = PBXBuildFile; fileRef = 40155EE026BC487000D13892 /* Notification.m */; };
+		405618CE24FD09EC00EA345C /* Historytableview.m in Sources */ = {isa = PBXBuildFile; fileRef = 405618CD24FD09EC00EA345C /* Historytableview.m */; };
+		405797A124F0342D00619577 /* ConnectPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 405797A024F0342D00619577 /* ConnectPost.m */; };
+		405797A524F3917600619577 /* ParsJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 405797A424F3917600619577 /* ParsJson.m */; };
+		405797AB24F4F30200619577 /* DBSqliteHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 405797AA24F4F30200619577 /* DBSqliteHelper.m */; };
+		405797AF24F5150900619577 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 405797AD24F4F34E00619577 /* libsqlite3.tbd */; };
+		409E0567248D30CC00D2E5C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 409E0566248D30CC00D2E5C1 /* AppDelegate.m */; };
+		409E056A248D30CC00D2E5C1 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 409E0569248D30CC00D2E5C1 /* SceneDelegate.m */; };
+		409E0570248D30CC00D2E5C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 409E056E248D30CC00D2E5C1 /* Main.storyboard */; };
+		409E0572248D30D000D2E5C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 409E0571248D30D000D2E5C1 /* Assets.xcassets */; };
+		409E0575248D30D000D2E5C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 409E0573248D30D000D2E5C1 /* LaunchScreen.storyboard */; };
+		409E0578248D30D000D2E5C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 409E0577248D30D000D2E5C1 /* main.m */; };
+		409E0582248D30D000D2E5C1 /* ClickforceWTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 409E0581248D30D000D2E5C1 /* ClickforceWTTests.m */; };
+		409E058D248D30D000D2E5C1 /* ClickforceWTUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 409E058C248D30D000D2E5C1 /* ClickforceWTUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		409E057E248D30D000D2E5C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 409E055A248D30CC00D2E5C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 409E0561248D30CC00D2E5C1;
+			remoteInfo = ClickforceWT;
+		};
+		409E0589248D30D000D2E5C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 409E055A248D30CC00D2E5C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 409E0561248D30CC00D2E5C1;
+			remoteInfo = ClickforceWT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		400AC8F425009D1300213908 /* PromptView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PromptView.h; sourceTree = "<group>"; };
+		400AC8F525009D1300213908 /* PromptView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PromptView.m; sourceTree = "<group>"; };
+		4013792324ED180700B3DC33 /* WelcomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		4013792424ED180700B3DC33 /* WelcomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
+		4013792924ED2A9B00B3DC33 /* UIImage+mfanimatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+mfanimatedGIF.m"; sourceTree = "<group>"; };
+		4013792A24ED2A9B00B3DC33 /* UIImage+mfanimatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+mfanimatedGIF.h"; sourceTree = "<group>"; };
+		4013792F24EE578300B3DC33 /* clickforce_logo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = clickforce_logo.gif; sourceTree = "<group>"; };
+		4013793224EE71CE00B3DC33 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		4013793324EE71CE00B3DC33 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		4013793624EFB3DE00B3DC33 /* InputText.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputText.h; sourceTree = "<group>"; };
+		4013793724EFB3DE00B3DC33 /* InputText.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputText.m; sourceTree = "<group>"; };
+		4013793924EFCF4F00B3DC33 /* WorkViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WorkViewController.h; sourceTree = "<group>"; };
+		4013793A24EFCF4F00B3DC33 /* WorkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorkViewController.m; sourceTree = "<group>"; };
+		40155EDF26BC487000D13892 /* Notification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Notification.h; sourceTree = "<group>"; };
+		40155EE026BC487000D13892 /* Notification.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Notification.m; sourceTree = "<group>"; };
+		405618CC24FD09EC00EA345C /* Historytableview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Historytableview.h; sourceTree = "<group>"; };
+		405618CD24FD09EC00EA345C /* Historytableview.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Historytableview.m; sourceTree = "<group>"; };
+		4057979F24F0342D00619577 /* ConnectPost.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnectPost.h; sourceTree = "<group>"; };
+		405797A024F0342D00619577 /* ConnectPost.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConnectPost.m; sourceTree = "<group>"; };
+		405797A324F3917600619577 /* ParsJson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParsJson.h; sourceTree = "<group>"; };
+		405797A424F3917600619577 /* ParsJson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParsJson.m; sourceTree = "<group>"; };
+		405797A924F4F30200619577 /* DBSqliteHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBSqliteHelper.h; sourceTree = "<group>"; };
+		405797AA24F4F30200619577 /* DBSqliteHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBSqliteHelper.m; sourceTree = "<group>"; };
+		405797AD24F4F34E00619577 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		409E0562248D30CC00D2E5C1 /* ClickforceWT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClickforceWT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		409E0565248D30CC00D2E5C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		409E0566248D30CC00D2E5C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		409E0568248D30CC00D2E5C1 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		409E0569248D30CC00D2E5C1 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		409E056F248D30CC00D2E5C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		409E0571248D30D000D2E5C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		409E0574248D30D000D2E5C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		409E0576248D30D000D2E5C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		409E0577248D30D000D2E5C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		409E057D248D30D000D2E5C1 /* ClickforceWTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClickforceWTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		409E0581248D30D000D2E5C1 /* ClickforceWTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClickforceWTTests.m; sourceTree = "<group>"; };
+		409E0583248D30D000D2E5C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		409E0588248D30D000D2E5C1 /* ClickforceWTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClickforceWTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		409E058C248D30D000D2E5C1 /* ClickforceWTUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClickforceWTUITests.m; sourceTree = "<group>"; };
+		409E058E248D30D000D2E5C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		409E055F248D30CC00D2E5C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405797AF24F5150900619577 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		409E057A248D30D000D2E5C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		409E0585248D30D000D2E5C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4013792824ED2A5500B3DC33 /* Gif */ = {
+			isa = PBXGroup;
+			children = (
+				4013792A24ED2A9B00B3DC33 /* UIImage+mfanimatedGIF.h */,
+				4013792924ED2A9B00B3DC33 /* UIImage+mfanimatedGIF.m */,
+			);
+			path = Gif;
+			sourceTree = "<group>";
+		};
+		4013792E24EE574B00B3DC33 /* Gifview */ = {
+			isa = PBXGroup;
+			children = (
+				4013792F24EE578300B3DC33 /* clickforce_logo.gif */,
+			);
+			path = Gifview;
+			sourceTree = "<group>";
+		};
+		4013793524EFB22200B3DC33 /* Textfield */ = {
+			isa = PBXGroup;
+			children = (
+				4013793624EFB3DE00B3DC33 /* InputText.h */,
+				4013793724EFB3DE00B3DC33 /* InputText.m */,
+			);
+			path = Textfield;
+			sourceTree = "<group>";
+		};
+		40155ED526BC394A00D13892 /* notification */ = {
+			isa = PBXGroup;
+			children = (
+				40155EDF26BC487000D13892 /* Notification.h */,
+				40155EE026BC487000D13892 /* Notification.m */,
+			);
+			path = notification;
+			sourceTree = "<group>";
+		};
+		405618CB24FD098000EA345C /* view */ = {
+			isa = PBXGroup;
+			children = (
+				405618CC24FD09EC00EA345C /* Historytableview.h */,
+				405618CD24FD09EC00EA345C /* Historytableview.m */,
+				400AC8F425009D1300213908 /* PromptView.h */,
+				400AC8F525009D1300213908 /* PromptView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		4057979E24F029D600619577 /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				4057979F24F0342D00619577 /* ConnectPost.h */,
+				405797A024F0342D00619577 /* ConnectPost.m */,
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
+		405797A224F390FE00619577 /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				405797A324F3917600619577 /* ParsJson.h */,
+				405797A424F3917600619577 /* ParsJson.m */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		405797A824F4F2B800619577 /* SQL */ = {
+			isa = PBXGroup;
+			children = (
+				405797A924F4F30200619577 /* DBSqliteHelper.h */,
+				405797AA24F4F30200619577 /* DBSqliteHelper.m */,
+			);
+			path = SQL;
+			sourceTree = "<group>";
+		};
+		405797AC24F4F34D00619577 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				405797AD24F4F34E00619577 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		409E0559248D30CC00D2E5C1 = {
+			isa = PBXGroup;
+			children = (
+				409E0564248D30CC00D2E5C1 /* ClickforceWT */,
+				409E0580248D30D000D2E5C1 /* ClickforceWTTests */,
+				409E058B248D30D000D2E5C1 /* ClickforceWTUITests */,
+				409E0563248D30CC00D2E5C1 /* Products */,
+				405797AC24F4F34D00619577 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		409E0563248D30CC00D2E5C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				409E0562248D30CC00D2E5C1 /* ClickforceWT.app */,
+				409E057D248D30D000D2E5C1 /* ClickforceWTTests.xctest */,
+				409E0588248D30D000D2E5C1 /* ClickforceWTUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		409E0564248D30CC00D2E5C1 /* ClickforceWT */ = {
+			isa = PBXGroup;
+			children = (
+				40155ED526BC394A00D13892 /* notification */,
+				405618CB24FD098000EA345C /* view */,
+				405797A824F4F2B800619577 /* SQL */,
+				405797A224F390FE00619577 /* Json */,
+				4057979E24F029D600619577 /* Post */,
+				4013793524EFB22200B3DC33 /* Textfield */,
+				4013792E24EE574B00B3DC33 /* Gifview */,
+				4013792824ED2A5500B3DC33 /* Gif */,
+				409E0565248D30CC00D2E5C1 /* AppDelegate.h */,
+				409E0566248D30CC00D2E5C1 /* AppDelegate.m */,
+				409E0568248D30CC00D2E5C1 /* SceneDelegate.h */,
+				409E0569248D30CC00D2E5C1 /* SceneDelegate.m */,
+				409E056E248D30CC00D2E5C1 /* Main.storyboard */,
+				409E0571248D30D000D2E5C1 /* Assets.xcassets */,
+				409E0573248D30D000D2E5C1 /* LaunchScreen.storyboard */,
+				409E0576248D30D000D2E5C1 /* Info.plist */,
+				409E0577248D30D000D2E5C1 /* main.m */,
+				4013792324ED180700B3DC33 /* WelcomeViewController.h */,
+				4013792424ED180700B3DC33 /* WelcomeViewController.m */,
+				4013793224EE71CE00B3DC33 /* MainViewController.h */,
+				4013793324EE71CE00B3DC33 /* MainViewController.m */,
+				4013793924EFCF4F00B3DC33 /* WorkViewController.h */,
+				4013793A24EFCF4F00B3DC33 /* WorkViewController.m */,
+			);
+			path = ClickforceWT;
+			sourceTree = "<group>";
+		};
+		409E0580248D30D000D2E5C1 /* ClickforceWTTests */ = {
+			isa = PBXGroup;
+			children = (
+				409E0581248D30D000D2E5C1 /* ClickforceWTTests.m */,
+				409E0583248D30D000D2E5C1 /* Info.plist */,
+			);
+			path = ClickforceWTTests;
+			sourceTree = "<group>";
+		};
+		409E058B248D30D000D2E5C1 /* ClickforceWTUITests */ = {
+			isa = PBXGroup;
+			children = (
+				409E058C248D30D000D2E5C1 /* ClickforceWTUITests.m */,
+				409E058E248D30D000D2E5C1 /* Info.plist */,
+			);
+			path = ClickforceWTUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		409E0561248D30CC00D2E5C1 /* ClickforceWT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 409E0591248D30D000D2E5C1 /* Build configuration list for PBXNativeTarget "ClickforceWT" */;
+			buildPhases = (
+				409E055E248D30CC00D2E5C1 /* Sources */,
+				409E055F248D30CC00D2E5C1 /* Frameworks */,
+				409E0560248D30CC00D2E5C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClickforceWT;
+			productName = ClickforceWT;
+			productReference = 409E0562248D30CC00D2E5C1 /* ClickforceWT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		409E057C248D30D000D2E5C1 /* ClickforceWTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 409E0594248D30D000D2E5C1 /* Build configuration list for PBXNativeTarget "ClickforceWTTests" */;
+			buildPhases = (
+				409E0579248D30D000D2E5C1 /* Sources */,
+				409E057A248D30D000D2E5C1 /* Frameworks */,
+				409E057B248D30D000D2E5C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				409E057F248D30D000D2E5C1 /* PBXTargetDependency */,
+			);
+			name = ClickforceWTTests;
+			productName = ClickforceWTTests;
+			productReference = 409E057D248D30D000D2E5C1 /* ClickforceWTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		409E0587248D30D000D2E5C1 /* ClickforceWTUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 409E0597248D30D000D2E5C1 /* Build configuration list for PBXNativeTarget "ClickforceWTUITests" */;
+			buildPhases = (
+				409E0584248D30D000D2E5C1 /* Sources */,
+				409E0585248D30D000D2E5C1 /* Frameworks */,
+				409E0586248D30D000D2E5C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				409E058A248D30D000D2E5C1 /* PBXTargetDependency */,
+			);
+			name = ClickforceWTUITests;
+			productName = ClickforceWTUITests;
+			productReference = 409E0588248D30D000D2E5C1 /* ClickforceWTUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		409E055A248D30CC00D2E5C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Eric Chen";
+				TargetAttributes = {
+					409E0561248D30CC00D2E5C1 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					409E057C248D30D000D2E5C1 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 409E0561248D30CC00D2E5C1;
+					};
+					409E0587248D30D000D2E5C1 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 409E0561248D30CC00D2E5C1;
+					};
+				};
+			};
+			buildConfigurationList = 409E055D248D30CC00D2E5C1 /* Build configuration list for PBXProject "ClickforceWT" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 409E0559248D30CC00D2E5C1;
+			productRefGroup = 409E0563248D30CC00D2E5C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				409E0561248D30CC00D2E5C1 /* ClickforceWT */,
+				409E057C248D30D000D2E5C1 /* ClickforceWTTests */,
+				409E0587248D30D000D2E5C1 /* ClickforceWTUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		409E0560248D30CC00D2E5C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4013793024EE578300B3DC33 /* clickforce_logo.gif in Resources */,
+				409E0575248D30D000D2E5C1 /* LaunchScreen.storyboard in Resources */,
+				409E0572248D30D000D2E5C1 /* Assets.xcassets in Resources */,
+				409E0570248D30CC00D2E5C1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		409E057B248D30D000D2E5C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		409E0586248D30D000D2E5C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		409E055E248D30CC00D2E5C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405797AB24F4F30200619577 /* DBSqliteHelper.m in Sources */,
+				409E0567248D30CC00D2E5C1 /* AppDelegate.m in Sources */,
+				4013793B24EFCF4F00B3DC33 /* WorkViewController.m in Sources */,
+				4013793824EFB3DE00B3DC33 /* InputText.m in Sources */,
+				405797A524F3917600619577 /* ParsJson.m in Sources */,
+				4013793424EE71CE00B3DC33 /* MainViewController.m in Sources */,
+				405618CE24FD09EC00EA345C /* Historytableview.m in Sources */,
+				4013792624ED180700B3DC33 /* WelcomeViewController.m in Sources */,
+				40155EE126BC487000D13892 /* Notification.m in Sources */,
+				409E0578248D30D000D2E5C1 /* main.m in Sources */,
+				409E056A248D30CC00D2E5C1 /* SceneDelegate.m in Sources */,
+				4013792B24ED2A9B00B3DC33 /* UIImage+mfanimatedGIF.m in Sources */,
+				405797A124F0342D00619577 /* ConnectPost.m in Sources */,
+				400AC8F625009D1300213908 /* PromptView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		409E0579248D30D000D2E5C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				409E0582248D30D000D2E5C1 /* ClickforceWTTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		409E0584248D30D000D2E5C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				409E058D248D30D000D2E5C1 /* ClickforceWTUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		409E057F248D30D000D2E5C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 409E0561248D30CC00D2E5C1 /* ClickforceWT */;
+			targetProxy = 409E057E248D30D000D2E5C1 /* PBXContainerItemProxy */;
+		};
+		409E058A248D30D000D2E5C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 409E0561248D30CC00D2E5C1 /* ClickforceWT */;
+			targetProxy = 409E0589248D30D000D2E5C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		409E056E248D30CC00D2E5C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				409E056F248D30CC00D2E5C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		409E0573248D30D000D2E5C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				409E0574248D30D000D2E5C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		409E058F248D30D000D2E5C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		409E0590248D30D000D2E5C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		409E0592248D30D000D2E5C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 8Q3LY5VL5Q;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=*]" = armv7;
+				INFOPLIST_FILE = ClickforceWT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.click.force.clickforcewt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		409E0593248D30D000D2E5C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 8Q3LY5VL5Q;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=*]" = armv7;
+				INFOPLIST_FILE = ClickforceWT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.click.force.clickforcewt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		409E0595248D30D000D2E5C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CH924TK4SJ;
+				INFOPLIST_FILE = ClickforceWTTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clickforce.ClickforceWTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClickforceWT.app/ClickforceWT";
+			};
+			name = Debug;
+		};
+		409E0596248D30D000D2E5C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CH924TK4SJ;
+				INFOPLIST_FILE = ClickforceWTTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clickforce.ClickforceWTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClickforceWT.app/ClickforceWT";
+			};
+			name = Release;
+		};
+		409E0598248D30D000D2E5C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CH924TK4SJ;
+				INFOPLIST_FILE = ClickforceWTUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clickforce.ClickforceWTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClickforceWT;
+			};
+			name = Debug;
+		};
+		409E0599248D30D000D2E5C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CH924TK4SJ;
+				INFOPLIST_FILE = ClickforceWTUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clickforce.ClickforceWTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClickforceWT;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		409E055D248D30CC00D2E5C1 /* Build configuration list for PBXProject "ClickforceWT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				409E058F248D30D000D2E5C1 /* Debug */,
+				409E0590248D30D000D2E5C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		409E0591248D30D000D2E5C1 /* Build configuration list for PBXNativeTarget "ClickforceWT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				409E0592248D30D000D2E5C1 /* Debug */,
+				409E0593248D30D000D2E5C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		409E0594248D30D000D2E5C1 /* Build configuration list for PBXNativeTarget "ClickforceWTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				409E0595248D30D000D2E5C1 /* Debug */,
+				409E0596248D30D000D2E5C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		409E0597248D30D000D2E5C1 /* Build configuration list for PBXNativeTarget "ClickforceWTUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				409E0598248D30D000D2E5C1 /* Debug */,
+				409E0599248D30D000D2E5C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 409E055A248D30CC00D2E5C1 /* Project object */;
+}
